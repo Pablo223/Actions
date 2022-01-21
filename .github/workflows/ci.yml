@@ -31,5 +31,5 @@ jobs:
       - name: Build
         run: docker build -t ${{ secrets.DOCKER_USER }}/Actions
       - name: Push
-      - run: docker push ${{ secrets.DOCKER_USER }}/Actions:latest
+        run: docker push ${{ secrets.DOCKER_USER }}/Actions:latest
     
