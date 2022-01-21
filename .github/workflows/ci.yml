@@ -32,6 +32,4 @@ jobs:
         run: docker build -t ${{ secrets.DOCKER_USER }}/Actions
       - name: Push
       - run: docker push ${{ secrets.DOCKER_USER }}/Actions:latest
-        
-          echo Add other actions to build,
-          echo test, and deploy your project.
+    
